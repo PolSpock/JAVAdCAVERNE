@@ -1,0 +1,13 @@
+com\ynov\dap\controllers\ContactController.class
+com\ynov\dap\google\GoogleService.class
+com\ynov\dap\controllers\AccountController.class
+com\ynov\dap\google\ContactService.class
+com\ynov\dap\models\ContactModel.class
+com\ynov\dap\models\MailModel.class
+com\ynov\dap\google\GoogleAccountService.class
+com\ynov\dap\models\CalendarModel.class
+com\ynov\dap\google\MailService.class
+com\ynov\dap\Launcher.class
+com\ynov\dap\controllers\MailController.class
+com\ynov\dap\google\CalendarService.class
+com\ynov\dap\controllers\CalendarController.class
