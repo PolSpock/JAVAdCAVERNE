@@ -45,11 +45,11 @@ public class AccountController {
      * @param session the session
      * @return the string
      */
-    @RequestMapping("/account/add/{userId}")
-    public String addAccount(@PathVariable final String userId, final HttpServletRequest request,
+    @RequestMapping("/account/add/{accountName}")
+    public String addAccount(@PathVariable final String accountName, @RequestParam(value = "userKey", required = false) final String userKey, final HttpServletRequest request,
             final HttpSession session) {
 
-        return googleAccountService.addAccount(userId, request, session);
+        return googleAccountService.addAccount(accountName, request, session);
     }
-
+    
 }

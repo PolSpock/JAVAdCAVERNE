@@ -82,7 +82,7 @@ public class GoogleService {
 
         return new GoogleAuthorizationCodeFlow.Builder(
                 httpTransport, JSON_FACTORY, clientSecrets, ALL_SCOPES)
-                .setDataStoreFactory(new FileDataStoreFactory(new java.io.File(env.getProperty("credentials_folder"))))
+                .setDataStoreFactory(new FileDataStoreFactory(new java.io.File(env.getProperty("credentials_tokens"))))
                 .setAccessType("offline")
                 .build();
     }
